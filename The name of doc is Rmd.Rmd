@@ -1,0 +1,35 @@
+---
+title: "Title"
+author: "Author"
+date: "2019年6月13日"
+output: word_document
+---
+
+# R  标题(#+空格+文字)
+### 标题
+运动： 
+- A 
+- B\n并没有用但不会显示
+- C
+
+参考网站可见 <https://www.cnblogs.com/nxld/p/6074412.html>.
+
+[点击查看](https://rmarkdown.rstudio.com/lesson-1.html) 
+
+
+[PDF](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
+[不空一行输出word中不会换行](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+
+**加粗 ** 
+:
+
+```{r, warning=TRUE}
+1:20
+summary(iris)
+#plot(abc)
+```
+##### 标题
+```{r , echo=FALSE}
+plot(iris$Sepal.Length)
+```
+
