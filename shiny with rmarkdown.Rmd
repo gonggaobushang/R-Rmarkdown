@@ -1,0 +1,15 @@
+---
+title: "shiny with rmarkdown"
+author: "gonggaobushang"
+date: "2019年6月13日"
+output: html_document
+runtime: shiny
+---
+
+```{r, echo = FALSE}
+numericInput("xy",
+ "How much you want?", 4)
+renderTable({
+ head(iris, input$xy)
+})
+```
