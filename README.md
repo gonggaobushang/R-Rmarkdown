@@ -6,3 +6,6 @@ rmarkdown包的运用。
 
 ## shiny with rmarkdown.Rmd
 结合shiny的rmarkdown例子。
+
+## rmarkdown learning.Rmd
+rmarkdown学习笔记。
