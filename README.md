@@ -12,3 +12,6 @@ rmarkdown学习笔记。
 
 ## revealjs.R
 用revealjs包制作html类的幻灯片。
+
+## prettydoc.R
+用prettydoc包制作不同风格的html。
