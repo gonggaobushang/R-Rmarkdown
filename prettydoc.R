@@ -1,5 +1,4 @@
-setwd("E:\\许捷\\R 工作\\R包\\rmarkdown")
-
+library(rmarkdown)
 library(prettydoc)
 
 # 生成html格式
