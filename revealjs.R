@@ -1,8 +1,8 @@
-setwd("E:\\许捷\\R 工作\\R包\\rmarkdown")
 library(rmarkdown)
 library(revealjs)
 
-#幻灯片
+#幻灯片形式
+#缺点是展现不了一些rmarkdown中html_document能够展现的内容
 
 render("rmarkdown leanring.Rmd",revealjs_presentation(
   center = T, #标题等居中
