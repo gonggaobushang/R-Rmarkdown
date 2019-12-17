@@ -9,3 +9,6 @@ rmarkdown包的运用。
 
 ## rmarkdown learning.Rmd
 rmarkdown学习笔记。
+
+## revealjs.R
+用revealjs包制作html类的幻灯片。
