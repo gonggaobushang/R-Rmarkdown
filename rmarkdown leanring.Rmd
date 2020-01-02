@@ -66,3 +66,10 @@ tidy=TRUE可以自动重新排列代码段
 child='文件名.Rmd'可以调入另一个.Rmd文件的内容  
 一个代码块希望所有的代码、输出都写到同一个原样文本块中， 加选项collapse=TRUE
 results='hold', 一个代码块所有的代码都显示完， 才显示所有的结果
+
+`r knitr::combine_words(names(iris), before = '"')`
+
+ `r knitr::combine_words(names(iris), before = '\x60')`
+
+`r knitr::combine_words(names(iris), before = '{', after = '}')`
+
